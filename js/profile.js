@@ -15,7 +15,7 @@ function profile(){
 
   document.body.appendChild(app.view);
   // Get the texture for rope.
-  const starTexture = PIXI.Texture.from('../img/star.png');
+  const starTexture = PIXI.Texture.from(url+url+'/img/star.png');
 
   const starAmount = 1000;
   let cameraZ = 0;
@@ -96,7 +96,7 @@ function randomizeStar(star, cameraZ, initial ) {
 function addFlaver( app ){
   PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
 
-  const sprite = PIXI.Sprite.from('../img/masterFlaver.png');
+  const sprite = PIXI.Sprite.from(url+'/img/masterFlaver.png');
 
   // Set the initial position
   sprite.anchor.set(0.5);

@@ -106,7 +106,7 @@ function playAave(){
       swal({
         title: "Damn you lose!",
         text: "Wanna give it another try?",
-        icon: '../img/flav.png',
+        icon: url+'/img/flav.png',
         buttons: true,
         dangerMode: true,
       })
@@ -149,45 +149,67 @@ function playAave(){
   let bg = new PIXI.Container();
 
   //BASE IMAGES
-  const backgroundImage = PIXI.Texture.from('../img/BG.png');
-
-  const flav = PIXI.Texture.from('../img/flav.png');
-  const flavD = PIXI.Texture.from('../img/flavD.png');
-  const flavI = PIXI.Texture.from('../img/flavI.png');
-  const flavUp = PIXI.Texture.from('../img/flavUp.png');
-
-  const bone1 = PIXI.Texture.from('../img/Tiles/Bone1.png');
-  const bone2 = PIXI.Texture.from('../img/Tiles/Bone2.png');
-  const bone3 = PIXI.Texture.from('../img/Tiles/Bone3.png');
-  const bone4 = PIXI.Texture.from('../img/Tiles/Bone4.png');
-
-  const tile1 = PIXI.Texture.from('../img/Tiles/Tile1.png');
-  const tile2 = PIXI.Texture.from('../img/Tiles/Tile2.png');
-  const tile3 = PIXI.Texture.from('../img/Tiles/Tile3.png');
-  const tile4 = PIXI.Texture.from('../img/Tiles/Tile4.png');
-  const tile5 = PIXI.Texture.from('../img/Tiles/Tile5.png');
-  const tile6 = PIXI.Texture.from('../img/Tiles/Tile6.png');
-  const tile7 = PIXI.Texture.from('../img/Tiles/Tile7.png');
-  const tile8 = PIXI.Texture.from('../img/Tiles/Tile8.png');
-  const tile9 = PIXI.Texture.from('../img/Tiles/Tile9.png');
-  const tile10 = PIXI.Texture.from('../img/Tiles/Tile10.png');
-  const tile11 = PIXI.Texture.from('../img/Tiles/Tile11.png');
-  const tile12 = PIXI.Texture.from('../img/Tiles/Tile12.png');
-  const tile13 = PIXI.Texture.from('../img/Tiles/Tile13.png');
-  const tile14 = PIXI.Texture.from('../img/Tiles/Tile14.png');
-  const tile15 = PIXI.Texture.from('../img/Tiles/Tile15.png');
-  const tile16 = PIXI.Texture.from('../img/Tiles/Tile16.png');
-  const aave = PIXI.Texture.from('../img/aave/aave-nobg.png');
-
-  const arrow = PIXI.Texture.from('../img/Objects/ArrowSign.png');
-  const bush1 = PIXI.Texture.from('../img/Objects/Bush1.png');
-  const bush2 = PIXI.Texture.from('../img/Objects/Bush2.png');
-  const crate = PIXI.Texture.from('../img/Objects/Crate.png');
-  const deadBush = PIXI.Texture.from('../img/Objects/DeadBush.png');
-  const tombStone1 = PIXI.Texture.from('../img/Objects/TombStone1.png');
-  const tombStone2 = PIXI.Texture.from('../img/Objects/TombStone2.png');
-  const tree = PIXI.Texture.from('../img/Objects/Tree.png');
-
+  setTimeout(function(){
+      //do what you need here
+      const backgroundImage = PIXI.Texture.from(url+'/img/BG.png');
+      const flav = PIXI.Texture.from(url+'/img/flav.png');
+      const flavD = PIXI.Texture.from(url+'/img/flavD.png');
+      const flavI = PIXI.Texture.from(url+'/img/flavI.png');
+      const flavUp = PIXI.Texture.from(url+'/img/flavUp.png');
+  }, 2000);
+  //code before the pause
+  setTimeout(function(){
+      //do what you need here
+      const bone1 = PIXI.Texture.from(url+'/img/Tiles/Bone1.png');
+      const bone2 = PIXI.Texture.from(url+'/img/Tiles/Bone2.png');
+      const bone3 = PIXI.Texture.from(url+'/img/Tiles/Bone3.png');
+      const bone4 = PIXI.Texture.from(url+'/img/Tiles/Bone4.png');
+  }, 2000);
+  //code before the pause
+  setTimeout(function(){
+      //do what you need here
+      const tile1 = PIXI.Texture.from(url+'/img/Tiles/Tile1.png');
+      const tile2 = PIXI.Texture.from(url+'/img/Tiles/Tile2.png');
+      const tile3 = PIXI.Texture.from(url+'/img/Tiles/Tile3.png');
+      const tile4 = PIXI.Texture.from(url+'/img/Tiles/Tile4.png');
+      const tile5 = PIXI.Texture.from(url+'/img/Tiles/Tile5.png');
+  }, 2000);
+  //code before the pause
+  setTimeout(function(){
+      //do what you need here
+      const tile6 = PIXI.Texture.from(url+'/img/Tiles/Tile6.png');
+      const tile7 = PIXI.Texture.from(url+'/img/Tiles/Tile7.png');
+      const tile8 = PIXI.Texture.from(url+'/img/Tiles/Tile8.png');
+      const tile9 = PIXI.Texture.from(url+'/img/Tiles/Tile9.png');
+      const tile10 = PIXI.Texture.from(url+'/img/Tiles/Tile10.png');
+  }, 2000);
+  //code before the pause
+  setTimeout(function(){
+      //do what you need here
+      const tile11 = PIXI.Texture.from(url+'/img/Tiles/Tile11.png');
+      const tile12 = PIXI.Texture.from(url+'/img/Tiles/Tile12.png');
+      const tile13 = PIXI.Texture.from(url+'/img/Tiles/Tile13.png');
+      const tile14 = PIXI.Texture.from(url+'/img/Tiles/Tile14.png');
+      const tile15 = PIXI.Texture.from(url+'/img/Tiles/Tile15.png');
+  }, 2000);
+  //code before the pause
+  setTimeout(function(){
+      //do what you need here
+      const tile16 = PIXI.Texture.from(url+'/img/Tiles/Tile16.png');
+      const aave = PIXI.Texture.from(url+'/img/aave/aave-nobg.png');
+      const arrow = PIXI.Texture.from(url+'/img/Objects/ArrowSign.png');
+      const bush1 = PIXI.Texture.from(url+'/img/Objects/Bush1.png');
+      const bush2 = PIXI.Texture.from(url+'/img/Objects/Bush2.png');
+  }, 2000);
+  //code before the pause
+  setTimeout(function(){
+      //do what you need here
+      const crate = PIXI.Texture.from(url+'/img/Objects/Crate.png');
+      const deadBush = PIXI.Texture.from(url+'/img/Objects/DeadBush.png');
+      const tombStone1 = PIXI.Texture.from(url+'/img/Objects/TombStone1.png');
+      const tombStone2 = PIXI.Texture.from(url+'/img/Objects/TombStone2.png');
+      const tree = PIXI.Texture.from(url+'/img/Objects/Tree.png');
+  }, 2000);
 
   //BACKGROUND IMAGE
   let spriteBG = new PIXI.Sprite(backgroundImage);

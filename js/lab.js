@@ -29,7 +29,7 @@ function showExplore(){
   document.body.appendChild(app.view);
 
   // Get the texture for rope.
-  const starTexture = PIXI.Texture.from('../img/flavs.jpg');
+  const starTexture = PIXI.Texture.from(url+'/img/flavs.jpg');
 
   const starAmount = 1000;
   let cameraZ = 0;
