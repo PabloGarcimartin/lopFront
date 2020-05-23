@@ -147,6 +147,7 @@ function playAave(){
   let bgImage = new PIXI.Container();
 
   let bg = new PIXI.Container();
+  let url = window.location.href.split('/index')[0];
 
   //BASE IMAGES
   const backgroundImage = PIXI.Texture.from(url+'/img/BG.png');

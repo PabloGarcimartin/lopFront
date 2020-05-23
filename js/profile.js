@@ -13,9 +13,11 @@ function profile(){
     height: window.innerHeight
   });
 
+  let url = window.location.href.split('/index')[0];
+
   document.body.appendChild(app.view);
   // Get the texture for rope.
-  const starTexture = PIXI.Texture.from(url+url+'/img/star.png');
+  const starTexture = PIXI.Texture.from(url+'/img/star.png');
 
   const starAmount = 1000;
   let cameraZ = 0;
@@ -44,7 +46,7 @@ function profile(){
   }
 
   //Add addFlaver
-  addFlaver( app );
+  addFlaver( app, url );
 
 
 
@@ -93,7 +95,7 @@ function randomizeStar(star, cameraZ, initial ) {
 }
 
 // Scale mode for all textures, will retain pixelation
-function addFlaver( app ){
+function addFlaver( app, url ){
   PIXI.settings.SCALE_MODE = PIXI.SCALE_MODES.NEAREST;
 
   const sprite = PIXI.Sprite.from(url+'/img/masterFlaver.png');
